@@ -140,7 +140,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M1</version>
+				<version>3.0.0-M4</version>
 				<configuration>
 					<excludes>
 						<exclude>**/*IT.java</exclude>
@@ -151,7 +151,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>3.0.0-M1</version>
+				<version>3.0.0-M4</version>
 				<executions>
 					<execution>
 						<id>integration-test</id>
