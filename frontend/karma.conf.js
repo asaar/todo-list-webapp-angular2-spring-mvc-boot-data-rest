@@ -7,7 +7,8 @@ module.exports = function(config) {
   // Testing helpers (optional) are conventionally in a folder called `testing`
   var testingBase    = 'testing/'; // transpiled test JS and map files
   var testingSrcBase = 'testing/'; // test source TS files
-
+  var path = require('path');
+  
   config.set({
     basePath: '',
     frameworks: ['jasmine'],
