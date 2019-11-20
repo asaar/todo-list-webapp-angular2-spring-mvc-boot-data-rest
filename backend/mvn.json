@@ -1,5 +1,5 @@
 {
-  "token": "${SL_TOKEN_DEV}",
+  "tokenfile": "sltoken.txt",
   "buildSessionIdFile": "buildSessionId.txt",
   "createBuildSessionId": "false",
   "packagesExcluded": "",
