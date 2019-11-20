@@ -46,6 +46,7 @@
                     <plugin>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-maven-plugin</artifactId>
+			    <jvmArguments>-javaagent:sl-test-listener.jar -Dsl.tokenFile=sltoken.txt -Dsl.buildSessionId=${SL_BUILD_SESSION_ID}</jvmArguments>
                     </plugin>
 				</plugins>
 			</build>
