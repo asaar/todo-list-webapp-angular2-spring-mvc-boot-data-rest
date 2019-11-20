@@ -163,7 +163,7 @@
 								<include>**/*IT.class</include>
 								<include>**/*IntegrationTest*.java</include>
 								<include>**/*IntegrationTests.java</include>
-								<include>**/*Integration**</include>
+								<include>**/*Integration*</include>
 							</includes>
 						</configuration>
 					</execution>
