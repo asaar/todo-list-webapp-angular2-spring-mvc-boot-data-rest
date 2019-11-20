@@ -1,6 +1,6 @@
 {
-  "tokenfile": "${WORKSPACE}/sltoken.txt",
-  "buildSessionIdFile": "${WORKSPACE}/buildSessionId.txt",
+  "tokenFile": "sltoken.txt",
+  "buildSessionIdFile": "buildSessionId.txt",
   "createBuildSessionId": "false",
   "packagesExcluded": "",
   "filesIncluded": "*.class",
