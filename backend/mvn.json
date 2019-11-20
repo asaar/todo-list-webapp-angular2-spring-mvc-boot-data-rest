@@ -1,6 +1,7 @@
 {
   "tokenFile": "sltoken.txt",
   "buildSessionIdFile": "buildSessionId.txt",
+  "createBuildSessionId": "false",
   "packagesExcluded": "",
   "filesIncluded": "*.class",
   "filesExcluded": "*test-classes*",
